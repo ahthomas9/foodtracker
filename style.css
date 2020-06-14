@@ -1,0 +1,389 @@
+/********************EVERYPAGE CSS********************/
+body {
+    height: 100%;
+    max-width: 100vw;
+}
+a {
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    color: #A0582D;
+}
+a:hover {
+    transform: scale(1.3);
+    color: #de819a;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+#homepage {
+    background-image: linear-gradient(to bottom right, #FFEDEB, #FCEAE8, #FEE2DF, #FCD0C3);
+}
+#center {
+    text-align: center;
+}
+strong {
+    color: #9F8189;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.important {
+    color: rgba(67, 58, 192, 0.856);
+    font-weight: bold;
+}
+.embold {
+    color: #de819f;
+    font-size: 150%;
+    font-weight: bold;
+}
+/***LISTS***/
+ul.reactions {
+    background-image: linear-gradient(to bottom right, #FBEEE6, transparent);
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 150px;
+    font-size: 18px;
+    line-height: 2;
+}
+ul li {
+    list-style: circle inside;
+    color: navy;
+}
+/***FOOTER***/
+#footer {
+    position: bottom;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/********************NAVBAR********************/
+.navbar{
+    padding-top: 25px;
+    border-style:none;
+    border-radius: 0;
+    background-image: linear-gradient(to right, transparent, white, white, transparent);
+    padding-left: 35vw;
+}
+.navbar li {
+    background-color:white;
+}
+ul.nav {
+    color:#de819a;
+}
+ul.nav a:hover {
+    color:#F3ABB6;
+    background-color: white;
+    border-radius: 15px 50px;
+}
+.navbar-brand {
+    color: #de819a;
+    cursor: default;  
+}
+/********************CONTENT********************/
+
+/***INDEX.HTML***/
+#head-img {
+    background-image: URL(img/lotion.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 100vh;
+    height: 100vh; 
+}
+#head-title {
+    margin: 250px 175px;
+    padding-left: 5%;
+    color:#A0582D;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 75px;
+    position: absolute;
+}
+#head-txt {
+    position: absolute;
+    top: 375px;
+    left: 50px;
+    font-size: 17px;
+}
+#links {
+    font-family: 'Poiret One', cursive;
+    line-height: 3;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+}
+#links:hover {
+    letter-spacing: 0.5em;
+}
+#links2 {
+    font-family: 'Poiret One', cursive;
+    line-height: 3;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+}
+#links2:hover {
+    letter-spacing: 5px;
+}
+/***TIPSNTRICKS.HTML -- KNOWN***/
+#known-img {
+    background-image: URL(img/dairy.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    padding-bottom: 35px;
+}
+#known-title {
+    color: #753a06;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 185px;
+    padding-left: 50px;
+}
+#known-txt {
+    background-color:white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#wheatBg {
+    background-image: URL(img/grain.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-left: 55px;
+    filter: grayscale(20%)
+}
+.shift {
+    margin-left: 55px;
+}
+/***TIPSNTRICKS.HTML -- SKIN***/
+#skin-img {
+    background-image: URL(img/handcream.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    padding-bottom: 35px;
+}
+#skin-title {
+    color: #753a06;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 185px;
+    padding-left: 50px;
+}
+#skin-txt {
+    background-color:white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+/***TRACKER.PHP -- FORM***/
+#form-bg {
+    background-image: URL(img/yogurt.jpg);
+    background-size: cover;
+    position: relative;
+    filter: blur(8px);
+    height: 100vh;
+    z-index: -1;
+}
+#form-content {
+    margin: auto;
+    margin-top: -850px;
+    background-color: transparent;
+    height: 100%;
+    z-index: 10;
+}
+#form-title {
+    padding-left: 5%;
+    color:white;
+    background-image: linear-gradient(to right, rgba(67, 58, 192, 0.856), powderblue, white, transparent);
+    height: 75px;
+    padding-top: 10px;
+    font-family: 'Poiret One', cursive;
+    font-size: 45px;
+    font-weight: bold;
+}
+#form-txt {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+form {
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 35px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+#form2 {
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+}
+small {
+    color:rgba(67, 58, 192, 0.856);
+}
+/***DISPLAY.PHP -- TABLE ***/
+#display-img {
+    background-image: URL(img/journal.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 35px;
+}
+#display-title {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 15%;
+    padding-left: 35%;
+    letter-spacing: 2px;
+}
+.displayCenter {
+    height: 100vh;
+    width: 100vw;
+}
+#down {
+    padding-left: 45%;
+    font-size: 45px;
+    color: white;
+}
+#displayTxt {
+    background-color:white;
+    margin-top: 35px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+table {
+    text-align: center;
+    outline-style: double;
+    outline-color: #FFCAD4;
+    outline-width: 3px;
+    background-image: linear-gradient(#FFE5D8, #FBEEE6);
+    margin: 0 auto;
+}
+table, th, td {
+    padding: 15px 15px;
+}
+th {
+    font-size: 15px;
+    width: 75px;
+    color: #4B2D2A;
+    text-align: center;
+}
+td {
+    background-color:white;
+}
+/********************BUTTONS********************/
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 7px 10px;
+    padding-right: 13px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(67, 58, 192, 0.856);
+    border-style:none;
+    color:white;
+}
+input[type="submit"]:hover {
+    background-color: navy;
+}
+#profile {
+    padding-right: 5px;
+    color: #de819a;
+    transition: all .2s ease-in-out;
+}
+#profile:hover {
+    color: #F3ABB6;
+    transform: scale(1);
+}
+#icons {
+    font-size: 30px !important;
+}
+#icons3 {
+    font-size: 30px !important;
+    background-color: white;
+    padding-top: 8px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0;
+}
+#profile3 {
+    color: rgba(67, 58, 192, 0.856);
+    padding-right: 5px;
+}
+#profile3:hover {
+    color: navy;
+    cursor: pointer !important;
+}
+/********************IMAGES & QUOTES********************/
+#shirt {
+    height: 275px;
+    width: 350px;
+    float:right;
+    margin-top: 500px;
+    margin-right: 65px;
+    border-radius: 15px 50px 50px 15px;
+}
+#shirtquote {
+    font-size: 25px;
+    color: #9F8189;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 15px;
+    padding-left: 25px;
+}
+#aveeno {
+    height: 350px;
+    width: 350px;
+}
+#firstaid {
+    height: 350px;
+    width: 350px;
+}
+#vaseline {
+    height: 355px;
+    width: 210px;
+}
+/********************SLIDESHOWS********************/
+.skinCare {
+    display: none;
+}
+.slideshow-container {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.caption {
+    color: rgba(67, 58, 192, 0.856);
+    font-size: 15px;
+    padding: 10px 12px;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    text-align: center;
+    font-weight: italic;
+}
+.num {
+    color: rgba(93, 84, 223, 0.856);
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}

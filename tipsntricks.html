@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food/Allergy Tracker</title>
+    <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery/UI library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    
+    <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+
+    <!--FontAwesome-->
+        <script src="https://use.fontawesome.com/b5f074d7a9.js"></script>
+    
+    <!--CSS style/Fonts-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
+</head>
+
+<!--NAVBAR-->
+<nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <p class="navbar-brand"><i class="fa fa-sun-o"></i> Mock Logger App </p>
+          </div>
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tracker.php">Food Logger</a></li>
+            <li><a href="tipsntricks.html">Tips</a></li>
+            </ul>
+        </div>
+  </nav>
+
+<!--CONTENT-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12" id="known-img">
+            <h2 id="known-title">Common <span style="color: white;">Allergens</span></h2>
+        </div>
+    </div>
+    <!--ALLERGY DIV-->
+    <div class="row" id="known-txt">
+        <div class="col-sm-2" id="wheatBg"></div>
+        <div class="col-sm-7">
+            <div class="shift">
+            <p>Unfortunately, when it comes to body and immune system health, there are allergens that not only are commonly found in food but also commonly reactive with our bodies. Everyone reacts differently, and to different degrees, but those with autoimmune diseases such as eczema or other chronic types of dermatitis are at times told to avoid foods that are reactive to a larger percentage of the populace. <span class="important">Even if you aren't outright allergic to something, you may be sensitive</span> and repeated exposure can lead to a degredation of health or the lack of improvement.</p>
+            <p><strong>Commonly reactive food:</strong></p>
+            <ul class="reactions">
+                <li>Dairy</li>
+                <li>Eggs</li>
+                <li>Tree Nuts or Peanuts</li>
+                <li>Shellfish</li>
+                <li>Wheat/Gluten</li>
+                <li>Soy</li>
+                <li>Citrus</li>
+                <li>Spices such as cinnamon, vinalla, cloves</li>
+            </ul>
+        <!--FLAVONOIDS DIV-->
+            <p> However, there <em>are</em> foods that you can eat that have anti-inflammatory properties by nature. These foods, if you aren't allergic or reactive to them, can potentially help skin symptoms. For instance, if you can eat soy with no adverse reaction, you could get away with tempeh, which is also made with soybeans.</p>
+            <p><strong>Some anti-inflammatory foods:</strong></p>
+            <ul class="reactions">
+                <li>Fish <small>(particularly salmon, albacore tuna, herring)</small></li>
+                <li>Broccoli</li>
+                <li>Spinach and Kale</li>
+                <li>Cherries</li>
+                <li>Blueberries</li>
+                <li>Green tea</li>
+                <li>Spices such as ginger, turmeric, or rosermary</li>
+            </ul>
+        </div>
+        <!--PROBIOTICS DIV-->
+            <p>Fermented foods in general can help, as they often have probiotics present in them. Probiotic pills can also help if you don't wish to eat any of these foods (however, that said, fish oil pills wouldn't substitute well for actual fish, according to studies).</p>
+            <p><strong>Some examples of probiotic-rich foods would be:</strong></p>
+            <ul class="reactions">
+                <li>Yogurt <small>(if dairy-sensitive, try something like coconut-based yogurts, or what fits you best)</small></li>
+                <li>Sauerkraut</li>
+                <li>Kimchi</li>
+                <li>Miso</li>
+                <li>Kombucha or kefir</li>
+            </ul>
+            <h4>With all of that said:</h4><p><em>Please</em> consult your doctor and let them advise you on what course of action is best for yourself and your individual case. A prick test may be a better course of action to avoid repeated exposure to food that you may not have eliminated from your diet yet but is causing subtle reactions. If you have a sensitivity to almonds and eat almond yogurt instead of dairy yogurt, you may be causing more harm to yourself.
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+    <!--SKIN DIV-->
+    <div class="row" id="skin-img">
+        <div class="col-sm-12">
+            <h2 id="skin-title">Skin <span style="color: white;">Tips</span></h2>
+        </div>
+    </div>
+    <div class="row" id="skin-txt">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-7">
+            <p>Dermatitis can come about for several reasons, truly, but there are a few things you can do to further your skin's health and stop from worsening it. These are just tips suggested by studies but, again:</p>
+            <h4 class="embold">Consult with your own personal dermatologist.</h4>
+            <p>Your case is your own case, and just as everyone's body processes food differently, everyone's own skin condition is different.</p>
+            <p>To continue on, though... eczema, or atopic dermatitis, is simply a compromise of the skin's moisture barrier. There is a <em>lot</em> more going on than that but it's easier to address skin issues being aware of that. Further compromising that barrier either chemically or physically is counter-intuitive to sensitive skin that's already weakened.</p>
+        <!--AVOID DIV-->
+            <p><strong>Some things to avoid:</p></strong>
+            <ul class="reactions">
+                <li>External vitamin C or retinol</li>
+                <li>Sudden changes in temperature</li>
+                <li>Prolonged exposure to heat, particularly hot water</li>
+                <li>Face brushes</li>
+                <li>Sugar, apricot, or otherwise abrasive scrubs</li>
+                <li>BHAs and AHAs, such as salicylic acid or gylcolic acids</li>
+                <li>Roughly-textured or too-tight clothing</li>
+            </ul>
+        <!--TIPS DIV-->
+            <p>The <em>opposite</em> of the above is the best course of action for sensitive skin. <span class="important">Instead of stripping your skin, give to it and nourish it.</span> Collodial oatmeal is studied and in many lotions that you can get in your local drugstore. There are also bath and body wash versions of those products that will help eczema on the body, like on the legs and arms. For clothing, loose-fitting and pure cotton (in the cooler months) or silk clothing is best to avoid irritating the skin. Also consider your sheets and blankets--are they too rough? Do they contain triggers such as harsher chemicals from laundry detergent?</p>
+            <p><strong>Some things to consider doing:</strong></p>
+            <ul class="reactions">
+                <li>Cotton/Silk and loose clothing</li>
+                <li>Sensitive-skin detergent</li>
+                <li>Washing your skin with cool water</li>
+                <li>Avoiding chemical and physical exfoliants</li>
+                <li>Using collodial oatmeal lotions</li>
+                <li>Avoiding fragrances</li>
+                <li>Apply regular lotion in multiple</li>
+            </ul>
+        </div>
+        <div class="col-sm-3"><img src="img/shirt.jpg" id="shirt" alt="Woman with a black v-necked sleeveless shirt.">
+        <quote id="shirtquote">Reduce the chance of contact dermatitis by wearing clothing that stays away from your skin.</quote></div>
+    </div>
+    <div class="row">
+            <!--CAROUSEL-->
+        <div class="slideshow-container">
+            <div class="col-sm-12">
+                <strong style="padding-bottom: 15px;">Some Skincare Options:</strong>
+            <!--PICS-->
+                <div class="skinCare Fade">
+                    <div class="num">1 / 3</div>
+                        <img src="img/aveeno.jpg" id="aveeno">
+                        <div class="caption">Aveeno's Eczema line is a good option for collodial oatmeal.</div>
+                    </div>
+                      <div class="skinCare Fade">
+                        <div class="num">2 / 3</div>
+                        <img src="img/firstaid.jpg" id="firstaid">
+                        <div class="caption">First Aid's line works for those with eczema on the face without clogging pores.</div>
+                    </div>
+                    <div class="skinCare Fade">
+                        <div class="num">3 / 3</div>
+                        <img src="img/vaseline.jpeg" id="vaseline">
+                    <div class="caption">Vaseline helps protect and maintain the skin's moisture barrier.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<div class="container-fluid">
+    <div class="row" id="footer">
+        <div class="col-sm-12 " id="center">
+            <p id="icons"><a href="http://ahthomas9.webfactional.com/"><i class="fa fa-user-circle" id="profile" title="Back to Portfolio Page" onclick="profile();"></i></a> <a href="https://github.com/ahthomas9"><i class="fa fa-code" id="profile" title="To GitHub"  onclick="github();"></i></a></p>
+        </div>
+    </div>
+</div>
+<script src="jquery.js"></script>
+<script type="text/javascript">
+    showSlides();
+</script>
+</body>
+</html>
